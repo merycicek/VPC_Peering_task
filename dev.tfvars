@@ -1,6 +1,6 @@
 # vpc_cidr = "10.0.0.0/16"
-# region = "us-east-2"
-# region_name = "Ohio"
+ region = "us-east-2"
+ region_name = "Ohio"
 
 # public_cidr1 = "10.0.101.0/24"
 # public_cidr2 = "10.0.102.0/24"
