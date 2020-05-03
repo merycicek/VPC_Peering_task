@@ -75,3 +75,6 @@ output "aws_route_table_association_private3_id "{
 output "aws_route_table_private_id "{
     value = "${aws_route_table.pr.id}"
 }
+output "tags" {
+  value = "${map1(var.tags)}"
+}
