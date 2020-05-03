@@ -1,4 +1,4 @@
-# variable "vpc_cidr" {}
+variable "vpc_cidr" {}
 
 # variable "private_cidr1" {}
 # variable "private_cidr2" {}
