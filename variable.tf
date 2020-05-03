@@ -20,7 +20,7 @@ variable "az1" {}
 variable "az2" {}
 variable "az3" {}
 
-# variable "peer_owner_id" {}
+variable "peer_owner_id" {}
   
   variable "tags" {
     type = "map"
@@ -28,8 +28,8 @@ variable "az3" {}
 
 
 
-#variables for vpc peering 
-variable "owner_profile" {}
-variable "accepter_profile" {}
-variable "owner_vpc_id" {}
-variable "accepter_vpc_id" {}
+# #variables for vpc peering 
+# variable "owner_profile" {}
+# variable "accepter_profile" {}
+# variable "owner_vpc_id" {}
+# variable "accepter_vpc_id" {}
