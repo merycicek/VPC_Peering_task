@@ -2,9 +2,9 @@
  region = "us-east-2"
  region_name = "Ohio"
 
-# public_cidr1 = "10.0.101.0/24"
-# public_cidr2 = "10.0.102.0/24"
-# public_cidr3 = "10.0.103.0/24"
+public_cidr1 = "192.168.1.0/24"
+public_cidr2 = "192.168.2.0/24"
+public_cidr3 = "192.168.3.0/24"
 
 # az1          = "a"
 # az2          = "b"
