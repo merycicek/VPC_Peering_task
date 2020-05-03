@@ -22,9 +22,9 @@ data "aws_caller_identity" "peer" {
 
 # Requester's side of the connection.
 resource "aws_vpc_peering_connection" "peer" {
-  vpc_id        = "vpc-067b2cdfceed292ae"
+  vpc_id        = "vpc-0ee1b80da8ee5a7d9"
   peer_vpc_id   = "vpc-0b131881b6a3b3680"
-  peer_owner_id = "052063109334"
+  peer_owner_id = "510941922340"
   #peer_accepter_id = "052063109334 "
   peer_region   = "us-east-2"
   auto_accept   = false
