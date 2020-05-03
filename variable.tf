@@ -1,4 +1,5 @@
 variable "vpc_cidr" {}
+ variable "ami" {}
 
 variable "private_cidr1" {}
 variable "private_cidr2" {}

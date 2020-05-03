@@ -2,6 +2,13 @@
  region = "us-east-2"
  region_name = "Ohio"
 
+ ami = "ami-0f7919c33c90f5b58"
+
+
+# This is used for VPC CIDR BLOCK 
+
+# cidr_block = "192.168.0.0/16"
+
 public_cidr1 = "192.168.1.0/24"
 public_cidr2 = "192.168.2.0/24"
 public_cidr3 = "192.168.3.0/24"
