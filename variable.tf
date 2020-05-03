@@ -1,8 +1,8 @@
 variable "vpc_cidr" {}
 
-# variable "private_cidr1" {}
-# variable "private_cidr2" {}
-# variable "private_cidr3" {}
+variable "private_cidr1" {}
+variable "private_cidr2" {}
+variable "private_cidr3" {}
 
 
 variable "public_cidr1" {}
