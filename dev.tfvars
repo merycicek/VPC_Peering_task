@@ -6,9 +6,9 @@ public_cidr1 = "192.168.1.0/24"
 public_cidr2 = "192.168.2.0/24"
 public_cidr3 = "192.168.3.0/24"
 
-# az1          = "a"
-# az2          = "b"
-# az3          = "c"
+az1          = "a"
+az2          = "b"
+az3          = "c"
 
 
 # private_cidr1 = "10.0.1.0/24"

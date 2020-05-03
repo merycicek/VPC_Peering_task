@@ -12,9 +12,9 @@ variable "public_cidr3" {}
 
 variable "region" {}
  variable "region_name" {}
-# variable "az1" {}
-# variable "az2" {}
-# variable "az3" {}
+variable "az1" {}
+variable "az2" {}
+variable "az3" {}
   
   variable "tags" {
     type = "map"
