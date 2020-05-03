@@ -16,11 +16,11 @@
 # private_cidr3 = "10.0.3.0/24"
 
 
-# tags = {
-#     Name = "VPC_Project"
-#     Envirement = "Dev"
-#     Team = "DevOps"
-#     Created_by = "Meryem"
-#     Department = "IT"
-#     Bill = "CFO"
-# }
+tags = {
+    Name = "VPC_Project"
+    Envirement = "Dev"
+    Team = "DevOps"
+    Created_by = "Meryem"
+    Department = "IT"
+    Bill = "CFO"
+}
