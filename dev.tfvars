@@ -31,3 +31,8 @@ tags = {
     Department = "IT"
     Bill = "CFO"
 }
+
+owner_profile ="510941922340" 
+owner_vpc_id ="vpc-0ee1b80da8ee5a7d9"
+accepter_profile ="514430043235"
+accepter_vpc_id ="vpc-06f284ad983d45f5d" 
