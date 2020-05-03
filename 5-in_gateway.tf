@@ -3,3 +3,4 @@ resource "aws_internet_gateway" "mygt" {
      tags = "${var.tags}"
   
 }
+  
