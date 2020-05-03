@@ -2,7 +2,7 @@ resource "aws_security_group" "web_sec" {
   name        = "web"
   description = "Allow TLS inbound traffic"
 
-  vpc_id = "${aws_vpc.public.id}" 
+  vpc_id = "${aws_vpc.myperfect_vpc.id}" 
   tags = "${var.tags}"
  
     ingress {
