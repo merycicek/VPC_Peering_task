@@ -5,9 +5,9 @@ variable "vpc_cidr" {}
 # variable "private_cidr3" {}
 
 
-# variable "public_cidr1" {}
-# variable "public_cidr2" {}
-# variable "public_cidr3" {}
+variable "public_cidr1" {}
+variable "public_cidr2" {}
+variable "public_cidr3" {}
 
 
 variable "region" {}
