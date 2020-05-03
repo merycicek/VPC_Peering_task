@@ -49,15 +49,15 @@ output "allocation_ip "{
 }
 
 output "aws_route_table_association1_id "{
-    value = "${aws_route_table_association.public1.id}"
+    value = "${aws_route_table_association.b1.id}"
 }
 
 output "aws_route_table_association2_id "{
-    value = "${aws_route_table_association.public2.id}"
+    value = "${aws_route_table_association.b2.id}"
 }
 
 output "aws_route_table_association3_id "{
-    value = "${aws_route_table_association.public3.id}"
+    value = "${aws_route_table_association.b3.id}"
 }
 
 output "aws_route_table_association_private1_id "{
