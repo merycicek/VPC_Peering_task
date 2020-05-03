@@ -11,6 +11,9 @@ variable "public_cidr2" {}
 variable "public_cidr3" {}
 
 
+
+
+
 variable "region" {}
  variable "region_name" {}
 variable "az1" {}
@@ -22,3 +25,11 @@ variable "az3" {}
   variable "tags" {
     type = "map"
 }
+
+
+
+#variables for vpc peering 
+variable "owner_profile" {}
+variable "accepter_profile" {}
+variable "owner_vpc_id" {}
+variable "accepter_vpc_id" {}
