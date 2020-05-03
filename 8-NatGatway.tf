@@ -6,7 +6,7 @@
  }
 # need to allocate with elastic Ip address
 resource "aws_eip" "nat" {
-  # instance ="${aws_instance.web.id}"
+# instance ="${aws_instance.web.id}"
   vpc = true
    tags = "${var.tags}"
 }
