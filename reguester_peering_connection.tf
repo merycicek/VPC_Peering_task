@@ -11,7 +11,7 @@ data "aws_caller_identity" "peer" {
 }
 # Requester's side of the connection.
 resource "aws_vpc_peering_connection" "peer" {
-  vpc_id        = "${aws_vpc.task4_vpc.id}"
+  vpc_id        = "${aws_vpc.myperfect_vpc.id}"
   peer_vpc_id   = "vpc-0c0a1675924616418" #ACCEPTER VPC ID
   peer_owner_id = "972228761283"         #ACCEPTER ACCOUNT ID
   peer_region   = "us-east-1"            #ACCEPTER REGION
