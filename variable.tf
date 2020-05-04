@@ -29,6 +29,14 @@ variable "az3" {}
 
 
 # #variables for vpc peering 
+
+# variable "owner_profile" {}
+# variable "accepter_profile" {}
+# variable "owner_vpc_id" {}
+#  variable "accepter_vpc_id" {}
+
+
+# #variables for vpc peering 
 # variable "owner_profile" {}
 # variable "accepter_profile" {}
 # variable "owner_vpc_id" {}

@@ -32,3 +32,9 @@ tags = {
     Bill = "CFO"
 }
 
+# # for peering
+# owner_profile ="514430043235"
+# owner_vpc_id ="vpc-06f284ad983d45f5d"
+# accepter_profile ="972228761283"
+# accepter_vpc_id ="vpc-09ec7e1f5eb2448e6"
+
