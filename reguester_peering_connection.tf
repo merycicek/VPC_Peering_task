@@ -20,3 +20,4 @@ resource "aws_vpc_peering_connection" "peer" {
     Side = "Requester"
   }
 }
+# in my case I was the requester and I open this codes, and in this code peer_region is the other person vpc region.  
